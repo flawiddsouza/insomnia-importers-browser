@@ -5,13 +5,11 @@
     "main": "dist/bundle.js",
     "type": "module",
     "license": "MIT",
-    "dependencies": {
-        "insomnia-importers": "^3.6.0"
-    },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^23.0.2",
         "@rollup/plugin-json": "^5.0.1",
         "@rollup/plugin-node-resolve": "^15.0.1",
+        "insomnia-importers": "^3.6.0",
         "rollup": "^3.4.0",
         "rollup-plugin-polyfill-node": "^0.11.0"
     },
