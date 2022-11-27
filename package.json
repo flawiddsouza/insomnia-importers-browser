@@ -2,18 +2,26 @@
     "name": "insomnia-importers-browser",
     "version": "1.0.0",
     "description": "Use insomnia-importers package directly in the browser",
-    "main": "dist/bundle.js",
+    "main": "dist/insomnia-importers-browser.js",
     "type": "module",
     "license": "MIT",
     "devDependencies": {
-        "@rollup/plugin-commonjs": "^23.0.2",
-        "@rollup/plugin-json": "^5.0.1",
-        "@rollup/plugin-node-resolve": "^15.0.1",
+        "assert": "^2.0.0",
+        "browserify-zlib": "^0.2.0",
+        "buffer": "^6.0.3",
+        "crypto-browserify": "^3.12.0",
+        "https-browserify": "^1.0.0",
         "insomnia-importers": "^3.6.0",
-        "rollup": "^3.4.0",
-        "rollup-plugin-polyfill-node": "^0.11.0"
+        "path-browserify": "^1.0.1",
+        "stream-browserify": "^3.0.0",
+        "stream-http": "^3.2.0",
+        "timers-browserify": "^2.0.12",
+        "url": "^0.11.0",
+        "util": "^0.12.5",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.0"
     },
     "scripts": {
-        "build": "rollup -c"
+        "build": "webpack"
     }
 }
